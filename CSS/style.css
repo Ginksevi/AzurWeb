@@ -3,6 +3,15 @@
     color: aliceblue;
 }
 .programacion{
-    background-color: black;
     color: blue;
+}
+.BaseDeDatos{
+    color: orange;
+}
+.contenedor{
+    background-color: gray;
+    text-align: center;
+}
+#cursos{
+    text-transform: uppercase;
 }
