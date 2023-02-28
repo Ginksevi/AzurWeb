@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+    <style>
+        #contenedor{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <img src="Img/Html5-JS-css-logo-1024x576.jpg" alt="Portada del proyecto" width="100%">
+    </div>
+    <br><br>
+    <!--"img" inserta una imagen en el documento, requiere el atributo "src" para especificar la "URL" del archivo
+    los atributos "src" Especifica la URL del archivo "alt" muestra un texto en caso de que la imagen no cargue, "width" marca el ancho de la imagen, "heigth" marca el alto de la imagen-->
+    <img src="Img/Html5-JS-css-logo-1024x576.jpg" alt="Portada del proyecto" width="300px" height="300px">
+    <br><br>
+    <!--"figure" representa contenido asociado con el contenido principal que se puede eliminar sin que se vea afectado como fotos, videos, etc y le añade un margen automaticamente.
+    "figcaption" introduce un titulo para el elemento "figure"-->
+    <figure>
+        <img src="Img/jhep-coursera-course4.png" alt="muestra" width="300px">
+        <figcaption>Portada</figcaption>
+    </figure>
+    <br><br>
+
+    <!--"picture" inserta una imagen, trabaja junto al elemento "source" para ofrecer multiples imagenes en diferentes resolucines. util para sitios web adaptables-->
+    <picture>
+        <img src="Img/Html5-JS-css-logo-1024x576.jpg" alt="Portada del proyecto" width="300px">
+    </picture>
+</body>
+</html>
