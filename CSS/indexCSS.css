@@ -1,0 +1,18 @@
+p, li{
+    background-color: yellow;
+    color: blue;
+}
+header p{
+    background-color: red;
+    color: blue;
+}
+
+h2 + li{
+    background-color: black;
+    color: aliceblue;
+}
+
+section > p{
+    background-color: blue;
+    color: yellow;
+}
