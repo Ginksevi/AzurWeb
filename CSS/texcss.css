@@ -1,0 +1,44 @@
+/* colocar un "*" representa todo el documento y de esta forma agregar estilos a todo de manera general*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#texto{
+    font-family: Arial, Helvetica, sans-serif;
+    /*De esta forma se puede alinear el texto*/
+    text-align: center;
+    /*asi se alinea la ultima linea del texto de forma distina*/
+    text-align-last: right;
+    /*Esta propiedad representa la sangria y se puede cambiar por pixeles "px" o porcentaje "%"*/
+    text-indent: 20px;
+    /*Esta propiedad define el espacio entre lineas e igual forma funciona con pixeles y porcentaje*/
+    line-height: 30px;   
+}
+
+.verdana{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    /*Esta propiedad define el espacio entre las letras de igual forma se puede poner en pixeles "px" y porcentaje "%"*/
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+/*de esta forma se le cambia el formato a todos los elementos "<p>" en general */
+p{
+    font-size: larger;
+    font-style: italic;
+} 
+
+/* Con la propiedad "font" se pueden establecer todos los estilos en una misma linea
+font: bold 20px arial
+*/
+
+/*Este metodo alinea el texto cuando hay una imagen insertada en el*/
+ #texto img{
+    vertical-align: top;
+ }
+
+ /*Este metodo ayuda a decorar el texto y sirve para quitar la subrayado de los enlaces*/
+ #texto a{
+    text-decoration: none;
+ }
