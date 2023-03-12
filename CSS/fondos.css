@@ -1,0 +1,21 @@
+#contenedor{
+    border: solid 2px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    /*background-color: turquoise;*/
+    /*Imagen de fondo*/
+    background-image: url(../Img/descarga.png);
+    /*Determina si la imagen se repite dentro del contenedor o para que direccion se va a repetir sea vertical o horizontal*/
+    background-repeat: repeat;
+    /*Posiciona la imagen en caso de que no este repetida*/
+    background-position: center;
+    /*Determina el tamallo total de la imagen dentro del contenedor*/
+    background-size: 25%;
+    /*Determina si la imagen esta estatica o se mueve junto al scroll*/
+    background-attachment: fixed;
+    /*Se pueden agregar varios valores y atributos en una sola linea usando "background" unicamente*/
+    /*Determina el origen de la imagen desde donde empezara y la posicion en la que estara*/
+    background-origin: content-box;
+}
