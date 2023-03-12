@@ -1,0 +1,41 @@
+/*Tamaños*/
+section{
+    background-color: black;
+}
+
+section div{
+    width: 500px;
+    height: 200px;
+
+    /*Evita que salga parte del contenido del contenedor agregando un Scroll*/
+    overflow: auto;
+
+    /*Margenes
+    "margin: (Arriba, Derecha, Abajo, Izquierda)"*/
+    margin: 10px 10px 10px 10px;
+    /*Margenes de forma independiente*/
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+    /*Agregar relleno al contenedor para que el contenido no este pegado a los bordes
+    "Padding: (Arriba, Derecha, Abajo, Izquierda)"*/
+    padding: 10px 10px 10px 10px;
+    /*Relleno de forma independiente*/
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+#uno{
+    background-color: red;
+    color: white;
+}
+
+#dos{
+    background-color: blue;
+    color: yellow;
+}
