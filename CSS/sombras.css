@@ -1,0 +1,13 @@
+div{
+    width: 400px;
+    border: solid 2px gray;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    background-color: blanchedalmond;
+    /*Crear sombras, posicionarla, sombrearla y si esta dentro o fuera del contenedor (Posicion de sombra izquierda-arriba, drecha-abajo mediante atributos positivos y negativos, difuminado, posicion dentro o fuera)*/
+    box-shadow: turquoise 5px 5px 5px inset;
+}
+div h1{
+    text-shadow: red 3px 3px 5px;
+}
