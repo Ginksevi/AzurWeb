@@ -1,0 +1,29 @@
+.contenedor{
+    width: 500px;
+    margin: auto;
+}
+
+.contenedor img{
+    width: 100%;
+    filter: blur(5px);
+}
+
+#img{
+    filter: grayscale(1);
+}
+
+#ave{
+    filter: drop-shadow(10px 10px 5px black);
+}
+
+/*Propiedades de "filter":
+drop-shadow(arriba-derecha, abajo-izquierda, difuminado, color)
+blur(valor) - 1px a 10px
+grayscale(valor) - 0.1 a 1
+sepia (valor) - 0.1 a 1
+brigthness (valor) - 0.1 a 10
+contrast (valor) - 0.1 a 10
+hue-rotate(valor) - 1deg a 360deg
+invert (valor) - 0.1 a 1
+saturate (valor) - 0.1 y 10
+opacity (valor) - 0 y 1*/
