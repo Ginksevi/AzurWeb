@@ -1,0 +1,13 @@
+section{
+    border: solid 2px red;
+}
+div{
+    border: double 2px blue;
+    display: inline-block;
+    width: 45%;
+}
+span{
+    border: solid 2px yellow;
+    display: inline-block;
+    width: 200px;
+}
