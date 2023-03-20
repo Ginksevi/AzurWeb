@@ -1,0 +1,28 @@
+.info{
+    background-color: grey;
+    overflow: auto;
+}
+.info img{
+    float: left;
+    margin-right: 10px;
+}
+/*-------------------*/
+.info2{
+    background-color: turquoise;
+}
+.caja{
+    width: 170px;
+    height: 100px;
+    background-color: rgb(208, 204, 204);
+    border: solid 1px red;
+    float: left;
+}
+.flotarderecha{
+    float: right;
+}
+.flotarizquierda{
+    float: left;
+}
+.restaurar{
+    clear: both;
+}

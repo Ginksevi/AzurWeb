@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento Absoluto</title>
+    <style>
+        .caja{
+            width: 400px;
+            margin: auto;
+        }
+        .caja:hover .footer{
+            opacity: .8;
+        }
+        .header img{
+            width: 100%;
+            border: solid 2px;
+        }
+        .footer{
+            width: 400px;
+            background-color: white;
+            border: solid 2px;
+            position: relative;
+            text-align: center;
+            top: -58px;
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        ul{
+            background-color: red;
+        }
+        li{
+            background-color: turquoise;
+            display: inline-block;
+            width: 50px;
+        }
+        li div{
+            background-color: black;
+            color: white;
+            width: 50px;
+            position: absolute;
+            display: none;
+        }
+        li:hover div{
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <div class="header">
+            <img src="Img/descarga.png" alt="HTML">
+        </div>
+        <div class="footer">
+            <p>Esto es HTML lenguaje de maquetado para paginas web</p>
+        </div>
+        <ul>
+            <li>1
+                <div>Hola</div>
+            </li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+</body>
+</html>

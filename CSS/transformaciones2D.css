@@ -1,0 +1,22 @@
+.contenedor{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+.contenedor img{
+    width: 100%;
+    box-shadow: black 5px 5px 5px;
+}
+/*Añadir el "hover" activa la transformacion cuando se posiciona el mmouse sobre la imagen*/
+.contenedor img:hover{
+    /*cambia el tamaño de la imagen en escalas usando "scale (eje x, eje y)" si colocamos un solo valor se asigna a abmos ejes*/
+    transform: scale(1.5);
+    /*Con "Rotate (Valor en grados positivos y negativos)" podemos hacer rotar la imagen dependiendo de los grados asignados*/
+    transform: rotate(45deg);
+    /*Con "skew" podemos inclinar la imagen usando los mismos valores en grados como el anterior*/
+    transform: skew(20deg);
+    /*Con "traslate (Eje x, Eje y)" se puede trasladar la imagen a diferentes posiciones asignando valores en pixeles positivos y negativos*/
+    transform: translate(100px, 50px);
+    transition: 2s;
+
+}

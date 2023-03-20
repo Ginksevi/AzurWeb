@@ -1,0 +1,15 @@
+.caja{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: solid 2px red;
+    margin-top: 100px;
+    /*Se grega un fondo predeterminado en caso de que las gradientes no funcionen en el navegador*/
+    background-color: black;
+    /*la palabra "webkit hace funcionoar el gradiante en el navegador Google Chrome"*/
+    background-image: -webkit-linear-gradient(top, black, white);
+    /*La palabra "moz" hace funcionar el gradiante en el navegador Mozilla Firefox*/
+    background-image: -moz-linear-gradient(top, black, white);
+    /*La palabra "ms" hace funcionar el gradiante en el navegador de Internet Explore*/
+    background-image: -ms-linear-gradient(top, black, white);
+}

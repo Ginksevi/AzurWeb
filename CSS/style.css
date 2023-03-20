@@ -1,0 +1,17 @@
+#boton{
+    background-color: red;
+    color: aliceblue;
+}
+.programacion{
+    color: blue;
+}
+.BaseDeDatos{
+    color: orange;
+}
+.contenedor{
+    background-color: gray;
+    text-align: center;
+}
+#cursos{
+    text-transform: uppercase;
+}

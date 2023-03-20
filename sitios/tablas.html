@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <!--De este modo se puedenmarcar los bordes y hacer mas estilos para la tabla-->
+    <style>
+        th{
+            background-color: black;
+            color: aliceblue;
+        }
+        th, td{
+            border: solid 1px black;
+        }
+        table{
+            width: 400px;
+        }        
+    </style>
+    <article>
+        <!--las etiquetas "tr" representan las filas, las "td" las columnas, las "th" representan los titulos sobre las columnas-->
+        <table>
+            <tr>
+                <!--el atributo "colspan" mas un numero que refleja la cantidad de columnas hace que el titulo aparezca sobre las columnas contadas-->
+                <th colspan="3">Cursos</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Durarion</th>
+                <th>Nivel</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>24 Hrs</td>
+                <td>principiante</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>24 hrs</td>
+                <td>intermedio</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>60 hrs</td>
+                <td>intermedio</td>
+            </tr>
+            <tr>
+                <td>MySQL</td>
+                <td>36 hrs</td>
+                <td>intermedio</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>40 hrs</td>
+                <td>Avanzado</td>
+            </tr>
+        </table>
+    </article>
+</body>
+</html>

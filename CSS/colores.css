@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+}
+/*
+Propiedades para los colores
+
+Hexadecimal
+rgb (Rojo, Verde, Azul)
+rgba (Rojo, Verde, Azul, Alpha)
+hsl (Matiz, Saturacion, Luminosidad)
+hsla (Matiz, Saturacion, Luminosidad, Alpha)
+Alpha va de 0 -> 1, (0, 0.1 ...... 0.9, 1)
+Nombre de color
+*/

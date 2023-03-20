@@ -1,0 +1,27 @@
+.contenedor{
+    width: 300px;
+    height: 450px;
+    border: solid 1px;
+    margin: auto;
+    background-image: url(../Img/descarga.png);
+    background-size: contain;
+}
+.vermas{
+    background-color: black;
+    height: 0px;
+    color: white;
+    padding: 10px;
+    margin-top: 300px;
+    opacity: 0;
+    /*La transicion se le puede añadir a todos los cambios con el parametro "all"*/
+    transition: opacity 1s, height 1s;
+}
+.vermas p{
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+}
+.contenedor:hover .vermas{
+    opacity: 1;
+    height: 160px;
+}
